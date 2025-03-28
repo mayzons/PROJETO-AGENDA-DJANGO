@@ -14,7 +14,13 @@ django-admin startproject project .
 python manage.py startapp nameapp
 
 # Migrações de projeto (MIGRATION)
+python manage.py makemigrations
+python manage.py migrate
 
+# Criando usuário e senha do console Admin
+
+python manage.py createsuperuser            --> Pedira user, e-mail e senha do superuser
+python manage.py changepassword NOMEUSER            --> Caso esqueca a senha do super usuário
 
 
 # -------------------------------------------------------------------------------------------
