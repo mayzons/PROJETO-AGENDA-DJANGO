@@ -142,3 +142,5 @@ static/
 media/
 project/local_settings.py
 comandos/Dev_Pastas
+comandos/SERVER.media
+comandos/README.md
