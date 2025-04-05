@@ -144,3 +144,6 @@ project/local_settings.py
 comandos/Dev_Pastas
 comandos/SERVER.media
 comandos/README.md
+comandos/gunicorn.txt
+comandos/nginx-http.txt
+comandos/nginx-https.txt

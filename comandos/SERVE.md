@@ -90,11 +90,11 @@ git pull agendarepo main
 ```
 sudo -u postgres psql
 
-postgres=# create role meu_usuario with login superuser createdb createrole password 'senha_do_usuario';
+postgres=# create role agenda with login superuser createdb createrole password '4opo=0?8NSHWi9';
 CREATE ROLE
-postgres=# create database base_de_dados with owner meu_usuario;
+postgres=# create database agenda with owner agenda;
 CREATE DATABASE
-postgres=# grant all privileges on database base_de_dados to meu_usuario;
+postgres=# grant all privileges on database agenda to agenda;
 GRANT
 postgres=# \q
 
@@ -125,7 +125,7 @@ pip install faker
 python manage.py runserver
 python manage.py migrate
 python manage.py collectstatic
-python manage.py createsuperuser
+python manage.py createsuperuser 
 ```
 
 ## Permitir arquivos maiores no nginx
